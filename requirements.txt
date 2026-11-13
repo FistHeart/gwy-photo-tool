@@ -1,0 +1,5 @@
+Pillow>=10.0
+PySide6-Essentials>=6.6
+# 注意：OpenCV 5.x 移除了 Haar 级联接口，必须锁 4.x
+opencv-python-headless>=4.10,<5
+pyinstaller>=6.0
